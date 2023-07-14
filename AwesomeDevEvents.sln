@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwesomeDevEvents.API", "AwesomeDevEvents.API\AwesomeDevEvents.API.csproj", "{524B6462-46F6-434D-AB8D-BAB4711E110E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{524B6462-46F6-434D-AB8D-BAB4711E110E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524B6462-46F6-434D-AB8D-BAB4711E110E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524B6462-46F6-434D-AB8D-BAB4711E110E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524B6462-46F6-434D-AB8D-BAB4711E110E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A72BE81-8DF4-4214-BED7-095D91A4BFE9}
+	EndGlobalSection
+EndGlobal
