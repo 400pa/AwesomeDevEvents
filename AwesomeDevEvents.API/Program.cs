@@ -1,7 +1,7 @@
 using AwesomeDevEvents.API.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
-using System.Reflection;
+
 
 var builder = WebApplication.CreateBuilder(args);
 

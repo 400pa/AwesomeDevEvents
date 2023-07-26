@@ -35,7 +35,7 @@ namespace AwesomeDevEvents.API.Controllers
         /// </summary>
         /// <param name="Id">Identificador do evento</param>
         /// <returns>Dados do eventos</returns>
-        /// <response Code="200">Sucesso.</response>
+        /// <response code="200">Sucesso.</response>
         /// <response code="404">Não Encontrado.</response>
         [HttpGet("{Id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -62,7 +62,7 @@ namespace AwesomeDevEvents.API.Controllers
         /// </remarks>
         /// <param name="devEvent">Dados do evento</param>
         /// <returns>Objeto recém-criado</returns>
-        /// <response Code="201">Sucesso.</response>
+        /// <response code="201">Sucesso.</response>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         public IActionResult Post(DevEvent devEvent)
@@ -84,8 +84,8 @@ namespace AwesomeDevEvents.API.Controllers
         /// <param name="id">Identificador do enventos</param>
         /// <param name="input">Dados do evento</param>
         /// <returns>Nothing.</returns>
-        /// <response Code="404">Não encontrado.</response>
-        /// <response Code="204">Sucesso.</response>
+        /// <response code="404">Não encontrado.</response>
+        /// <response code="204">Sucesso.</response>
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -106,12 +106,12 @@ namespace AwesomeDevEvents.API.Controllers
         }
 
         /// <summary>
-        /// Deletar um eventos
+        /// Deletar um evento
         /// </summary>
         /// <param name="id">Identificador de eventos</param>
         /// <returns>Nothing.</returns>
-        /// <response Code="404">Não Encontrado.</response>
-        /// <response Code="204">Sucesso.</response>
+        /// <response code="404">Não Encontrado.</response>
+        /// <response code="204">Sucesso.</response>
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -138,8 +138,8 @@ namespace AwesomeDevEvents.API.Controllers
         /// <param name="id">Indentificador do Evento</param>
         /// <param name="speaker">Dados do palestrante</param>
         /// <returns>Nothing.</returns>
-        /// <response Code="404">Evento não encontrado.</response>
-        /// <response Code="204">Sucesso.</response>
+        /// <response code="404">Evento não encontrado.</response>
+        /// <response code="204">Sucesso.</response>
         [HttpPost("{id}/speakers")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
