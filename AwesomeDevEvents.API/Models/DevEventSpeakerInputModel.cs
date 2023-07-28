@@ -1,13 +1,10 @@
-﻿namespace AwesomeDevEvents.API.Entities
+﻿namespace AwesomeDevEvents.API.Models
 {
-    public class DevEventSpeaker
+    public class DevEventSpeakerInputModel
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
         public string TalkTitle { get; set; }
         public string TalkDescription { get; set; }
         public string LinkedinProfile { get; set; }
-        public Guid DevEventId { get; set; }
-
     }
 }
