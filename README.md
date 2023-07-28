@@ -8,6 +8,7 @@ Está em andamento a criação de um projeto de eventos de programação usando 
 - Asp.Net Core 7
 - EF Core
 - Swagger
+- AutoMapper
 
 ## Funcionalidades
 
