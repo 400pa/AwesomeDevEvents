@@ -1,6 +1,6 @@
 # AwesomeDevEvents - Projeto online do Prof.: LuisDev!
 
-Está em andamento a criação de um projeto de eventos de programação usando o Asp.NET CORE 7.
+Projeto finalizado, onde houve a criação de um projeto de eventos de programação usando o Asp.NET CORE 7.
 
 ## Tecnologias Utilizadas
 
